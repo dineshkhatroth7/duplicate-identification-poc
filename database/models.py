@@ -35,3 +35,4 @@ class MergeAuditLog(Base):
     confidence_score = Column(Integer)
     action = Column(String)
     created_at = Column(DateTime, default=datetime.utcnow)
+

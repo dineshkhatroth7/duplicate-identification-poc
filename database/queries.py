@@ -22,3 +22,4 @@ def fetch_pending_candidates():
         ).all()
     finally:
         db.close()
+
