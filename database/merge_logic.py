@@ -30,3 +30,4 @@ def merge_candidates(source_id: int, target_id: int):
 
     finally:
         db.close()
+
