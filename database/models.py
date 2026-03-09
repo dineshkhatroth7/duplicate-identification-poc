@@ -4,6 +4,7 @@ from .connection import Base
 
 
 class CandidateStaging(Base):
+
     __tablename__ = "candidates_staging"
 
     id = Column(Integer, primary_key=True, index=True)
@@ -16,6 +17,7 @@ class CandidateStaging(Base):
 
 
 class CandidateMain(Base):
+
     __tablename__ = "candidates_main"
 
     id = Column(Integer, primary_key=True, index=True)
@@ -27,6 +29,7 @@ class CandidateMain(Base):
 
 
 class MergeAuditLog(Base):
+
     __tablename__ = "merge_audit_log"
 
     id = Column(Integer, primary_key=True, index=True)
@@ -35,4 +38,3 @@ class MergeAuditLog(Base):
     confidence_score = Column(Integer)
     action = Column(String)
     created_at = Column(DateTime, default=datetime.utcnow)
-
