@@ -1,3 +1,0 @@
-#  ------------------ AI API ------------------
-google-generativeai
-groq
